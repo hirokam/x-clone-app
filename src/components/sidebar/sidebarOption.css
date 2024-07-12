@@ -1,0 +1,19 @@
+.sidebar__option {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  cursor: pointer;
+  transition: color 1ms 0s ease-out;
+}
+
+.sidebar__option:hover {
+  background: #272727;
+  color: white;
+  opacity: 0.9;
+  border-radius: 9999px;
+}
+
+.sidebar__inner-menu {
+  font-size: 1.25rem;
+  padding-left: 12px;
+}

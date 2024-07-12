@@ -1,0 +1,61 @@
+.article__all {
+  display: flex;
+  padding: 10px 15px;
+  border-bottom: solid 0.25px #494848;
+  min-height: 150px;
+  min-width: 75%;
+}
+
+.article__content {
+  margin: 0 2px;
+  padding-left: 5px;
+}
+
+.article__content-account {
+  display: flex;
+}
+
+.display-name {
+  color: #fff;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.display-name:hover {
+  text-decoration: underline;
+}
+
+.account-name,
+.datetime {
+  color: #555454;
+  text-decoration: none;
+}
+
+.datetime:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.account-datetime-group {
+  margin-left: 4px;
+}
+
+.breakpoint {
+  color: #555454;
+}
+
+.article__body {
+  margin-top: 0;
+}
+
+.article__img {
+  border-radius: 20px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.article__action {
+  display: flex;
+  justify-content: space-between;
+  color: #555454;
+}

@@ -1,0 +1,12 @@
+body {
+  --x-color: #21a0ef;
+  color: white;
+  background: #151515;
+}
+
+.app {
+  display: flex;
+  height: auto;
+  max-width: 1300px;
+  margin: 0 auto;
+}
